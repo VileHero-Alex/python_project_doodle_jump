@@ -16,7 +16,7 @@
 ### Примечание 
 Весь процесс игры сопроваждается звуками, иногда даже громкими, поэтому не забываем включать звук!
 
-Плюс во время игры вычисляется счёт (чем выше допрыгал, тем он больше), который будет выводится на итогов экране.
+Плюс во время игры вычисляется счёт (чем выше допрыгал, тем он больше), который будет выводится на итоговом экране.
 
 ![gameplay preview](./screenshots/gameover.png)
 
@@ -24,11 +24,12 @@
 
 Установка игры:
 ```
-git clone git@github.com:VileHero-Alex/PythonProject2023.git
+git clone git@github.com:VileHero-Alex/PythonProject2023.git DoodleJumpGame
+cd DoodleJumpGame
 pip3 install -r requirements.txt
 ```
 
 Запуск игры:
 ```
-python3 run_game.py
+python3 main.py
 ```
